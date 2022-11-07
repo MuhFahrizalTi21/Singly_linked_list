@@ -21,7 +21,7 @@ namespace Singly_linked_list
             START = null;
 
         }
-        public void addNote()
+        public void addNode()
         {
             int rollNo;
             string nm;
@@ -58,6 +58,8 @@ namespace Singly_linked_list
                 previous.next = current;
                 previous.next = newnode;
             }
+            newnode.next = current;
+            previous.next = newnode;
         }
     }
     class Program
