@@ -90,7 +90,7 @@ namespace Singly_linked_list
         }
         public void Traverse()
         {
-            if (ListEmpty())
+            if (listEmpty())
                 Console.WriteLine("\n The records in the list are: ");
             else
             {
@@ -102,6 +102,13 @@ namespace Singly_linked_list
             }
         }
 
+        public bool listEmpty()
+        {
+            if(START == null)
+                return true;
+            else
+                return false;
+        }
     }
     class Program
     {
