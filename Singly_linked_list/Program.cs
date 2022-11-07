@@ -40,6 +40,9 @@ namespace Singly_linked_list
                     Console.WriteLine();
                     return;
                 }
+                newnode.next = START;
+                START = newnode;
+                return;
             }
         }
     }
