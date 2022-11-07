@@ -55,6 +55,8 @@ namespace Singly_linked_list
                     Console.WriteLine();
                     return ;
                 }
+                previous.next = current;
+                previous.next = newnode;
             }
         }
     }
