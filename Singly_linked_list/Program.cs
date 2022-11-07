@@ -37,7 +37,8 @@ namespace Singly_linked_list
             {
                 if((START != null) && (rollNo == START.rollNumber))
                 {
-
+                    Console.WriteLine();
+                    return;
                 }
             }
         }
