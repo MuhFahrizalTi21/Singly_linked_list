@@ -44,6 +44,9 @@ namespace Singly_linked_list
                 START = newnode;
                 return;
             }
+            Node previous, current;
+            previous = START;
+            current = START;
         }
     }
     class Program
