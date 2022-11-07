@@ -97,7 +97,7 @@ namespace Singly_linked_list
                 Console.WriteLine("\nThe records in the list are: ");
                 Node currentNode;
                 for(currentNode = START; currentNode != null; currentNode = currentNode.next)
-                    Console.WriteLine(currentNode.rollNumber + "" + currentNode.name + "\n");
+                    Console.WriteLine(currentNode.rollNumber + " " + currentNode.name + "\n");
                 Console.WriteLine();
             }
         }
@@ -148,7 +148,7 @@ namespace Singly_linked_list
                                 if (obj.delNode(rollNo) == false)
                                     Console.WriteLine("\n Record not found: ");
                                 else
-                                    Console.WriteLine("Record with roll number" + +rollNo + "Deleted");
+                                    Console.WriteLine("Record with roll number" + + rollNo + "Deleted");
 
                             }
                             break;
