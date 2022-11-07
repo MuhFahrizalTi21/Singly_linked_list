@@ -50,7 +50,11 @@ namespace Singly_linked_list
 
             while ((current != null) && (rollNo >= current.rollNumber))
             {
-
+                if(rollNo == current.rollNumber)
+                {
+                    Console.WriteLine();
+                    return ;
+                }
             }
         }
     }
