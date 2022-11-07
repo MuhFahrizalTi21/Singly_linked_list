@@ -47,6 +47,11 @@ namespace Singly_linked_list
             Node previous, current;
             previous = START;
             current = START;
+
+            while ((current != null) && (rollNo >= current.rollNumber))
+            {
+
+            }
         }
     }
     class Program
